@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="validation.js">
+    </script>
+</head>
+    <body>
+
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="special.html">Specials</a>
+            <a class="active" href="signup.html">Sign Up</a>
+        </div>
+
+        <div class="bg-signup">
+        <div class="centered">
+            <h1 style="font-size:50px">What are you waiting for?</h1>
+            <hr width="50%">
+            <h4><i>
+                Sign up to our newsletter now to be notified for our special weekly deals!
+            </i></h4>
+            <div class="form">
+                <form name="myForm" action="submission.php" method="post" onsubmit="return validateForm()">
+                <label for="name">Name: </label>
+                <input type="text" id="name" placeholder="Username" name="name"><br><br>
+
+                <label for="email">Email address: </label>
+                <input type="email" id="email" placeholder="someone@example.com" name="email"><br><br>
+
+
+                <label>What would you like to be notified on?</label><br>
+                <input type="checkbox" id="donuts" name="section1" class="checkboxes">
+                <label for="donuts"> Donuts</label><br>
+
+                <input type="checkbox" id="vanilla" name="section2" class="checkboxes">
+                <label for="vanilla"> Vanilla Slice</label><br>
+
+                <input type="checkbox" id="randy" name="section3" class="checkboxes">
+                <label for="randy"> Randy Tart</label><br>
+
+                <input type="checkbox" id="custard" name="section4" class="checkboxes">
+                <label for="custard"> Custard Tart</label><br>
+
+                <input type="checkbox" id="raspberry" name="section5" class="checkboxes">
+                <label for="raspberry"> Raspberry Cheesecake</label><br>
+
+                <input type="checkbox" id="apple" name="section6" class="checkboxes">
+                <label for="apple"> Apple Cake</label><br>
+
+                <br><br>
+
+
+                <label for="date">Birthdate:</label>
+                <br>
+                <input type="date" id="date" name="date"/>
+                <br><br>
+
+                <button class="button" type="submit" value="Submit"><b>Sign up</b></button>
+                </form>
+            </div>
+        </div>
+        </div>
+        <div id="footer">
+            <p><a href="index.html">Home</a> | <a href="about.html">About us</a> | <a href="special.html">Specials</a> | <a href="signup.html">Sign Up</a> | Contact: 0455 5555 555 | Cathering: 0433 3333 333 | Address: 123 Prize Lane, Kirwan, QLD</p>
+        </div>
+    </body>
+</html>

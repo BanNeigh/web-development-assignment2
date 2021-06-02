@@ -1,0 +1,405 @@
+body {
+  margin: 0;
+  background-color: #cc8800;
+  font-family: Tahoma;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+div.navbar {
+  overflow: auto;
+  background-color: #b35900;
+  position: fixed;
+  right: 0;
+  border-radius: 15px;
+  margin: 15px;
+  z-index: 10;
+}
+
+ul {
+    list-style-type: none
+}
+
+div.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+div.navbar a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+div.navbar a.active {
+  background-color: #4d2600;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {font-family: Arial, Helvetica, sans-   serif}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  background-color: #b35900;
+  border-radius: 15px 50px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  background-color: #ffffff
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 30px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+div.menu {
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    padding-bottom:2em;
+    padding-left:1em;
+    border-style:solid;
+    border-width:2px;
+    background-color: #996600;
+    border-radius: 10px;
+    float: left;
+    position: absolute
+}
+
+@media only screen and (max-width:600px) {
+    div.menu {
+        margin-left: 30px;
+    }
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  text-align: center;
+  transform: translate(-50%, -50%);
+ }
+
+div.special {
+    background-image: url("baker.jpg");
+    background-position: 0px -400px ;
+    background-repeat: no-repeat;
+    width: 60%;
+    float: right;
+    margin-top: 250px;
+    margin-left: 980px;
+    margin-bottom: 40px;
+    border-style:solid;
+    border-width:2px;
+    background-color: #ffe6b3;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width:1350px) {
+    div.special {
+        width: 95%;
+        margin-top: 750px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+        text-align: center;
+
+    }
+
+    div.special h1 {
+        font-size: 25px;
+    }
+}
+
+div.containers {
+    float:left;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+ div.special-banner {
+    color: black;
+ }
+
+
+.right {
+  position: absolute;
+  top: 25%;
+  right: 15%;
+  text-align: center
+ }
+
+div.email {
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 600px;
+  height: 30px;
+  color: #cccccc;
+  text-align: left;
+  font-size: 25px;
+  padding-left: 15px;
+}
+
+div.button {
+  overflow: hidden;
+  background-color: #b35900;
+  border-radius: 15px;
+  margin: 15px;
+  width: 60px;
+}
+
+div.button a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 8px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+div.button a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+#footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.7em;
+    background-color: #2c2e38;
+    color: #d7ceb2;
+    font:"Helvetica", Arial, sans-serif;
+    border-radius: 15px 15px 0px 0px;
+    position: fixed;
+
+}
+#footer a { color:#FC3; }
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bg-about {
+  /* The image used */
+  background-image: url("storefront.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg-home {
+  /* The image used */
+  background-image: url("bakery.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-apple {
+  /* The image used */
+  background-image: url("applecakebig.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-custard {
+  /* The image used */
+  background-image: url("custardtartbig.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-donuts {
+  /* The image used */
+  background-image: url("donutsbig.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-randy {
+  /* The image used */
+  background-image: url("randytartbig.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-raspberry {
+  /* The image used */
+  background-image: url("raspberrycheesecakebig.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-vanilla {
+  /* The image used */
+  background-image: url("vanillaslicebig.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg-weekly {
+  /* The image used */
+  background-image: url("bakeryanime.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.left {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.bg-signup {
+  /* The image used */
+  background-image: url("bakers.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div.menu-special {
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    padding-bottom:2em;
+    padding-left:1em;
+    border-style:solid;
+    border-width:2px;
+    background-color: #996600;
+    border-radius: 10px;
+    float: left;
+}
+
+.button {
+  background-color: #f78a05;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
